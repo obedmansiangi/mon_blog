@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    font-size: 16px;
+    color: rgba(0, 0, 0, .87);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: color .3s;
+}
+.header{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    padding: 20px 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+
+}
+.header .navigation a{
+    margin: 50px;
+    text-transform: capitalize;
+    color: #9F9F9F; 
+}
+.header .navigation a:hover{
+    color: black;
+}
+.header .navigation .link{
+    color: black;
+}
+.header .social img{
+    height: auto;
+    margin: 15px;
+    opacity: .5;
+}
+.header .social img:hover{
+    opacity: 1;
+}
+.baniere{
+    height: 427px;
+    background: no-repeat center center / cover url(img/header.jpg);
+}
+.main{
+    display: flex;
+}
+.main .container{
+    position: relative;
+    margin: 50px 0;
+    padding-left: 100px;
+    min-height: 203px;
+}
+.main .container .article{
+    display: flex;
+    padding-right: 100px; 
+    padding-top: 50px;
+}
+.main .container .article .blog{
+    padding-left: 30px;
+}
+.main .container .article .date_publication{
+    color: #9F9F9F;
+}
+.main .container .article .titre_article{
+    font-size: 2.3rem;
+    font-family: serif;
+}
+.main .divers{
+    width: 100%;
+    padding: 85px 40px;
+    background-color: rgb(241, 240, 240);
+}
+.main .divers h2{
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    font-size: 2.1rem;
+}
+.main .divers a{
+    color: #9F9F9F;
+}
+.main .divers ul{
+    list-style: none;
+}
+.main .divers .ressources{
+    padding-bottom: 50px;
+}
+.main .divers .auteurs{
+    border-top: 1px solid #9F9F9F ;
+    padding-top: 50px;
+}
+.footer{
+    background-color: rgb(241, 240, 240);
+}
